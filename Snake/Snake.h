@@ -1,10 +1,10 @@
 #pragma once
-#include <vector>
 const int bodyLength{ 5 };
 struct position
 {
 	int x,y;
 };
+
 class snake
 {
 private:
