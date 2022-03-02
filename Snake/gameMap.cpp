@@ -19,3 +19,7 @@ std::ostream& operator<<(std::ostream& os, const gameMap& gameMap)
 	}
 	return os;
 }
+void gameMap::updateMap(int xPos,int yPos)
+{
+	map[xPos][yPos] = 'x';
+}

@@ -8,5 +8,6 @@ private:
 public:
 	gameMap();
 	friend std::ostream& operator<<(std::ostream& os, const gameMap& map);
+	void updateMap(int,int);
 };
 
